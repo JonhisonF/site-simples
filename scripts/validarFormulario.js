@@ -3,7 +3,7 @@ const idadeInput = document.getElementById("idade");
 const idadeError = document.getElementById("idade-error");
 
 formulario.addEventListener("submit", function (event) {
-  idadeError.textContent = ""; // Limpa mensagens de erro anteriores
+  idadeError.textContent = "";
 
   const idade = parseInt(idadeInput.value);
 
