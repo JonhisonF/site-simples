@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Captação de Dados - Resultado</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        text-align: left;
+        max-width: 400px;
+      }
+
+      .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .card-data {
+        font-size: 1rem;
+        margin-bottom: 15px;
+      }
+
+      .loading-container {
+        text-align: center;
+      }
+
+      .loading-spinner {
+        border: 4px solid rgba(0, 0, 0, 0.3);
+        border-top: 4px solid #007bff;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        animation: spin 1s linear infinite;
+        display: inline-block;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="form.html">Envio de dados</a></li>
+          <li><a href="about.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
+      </div>
+
+      <div class="card" style="display: none">
+        <h1 class="card-title">Resultado do Formulário</h1>
+        <div class="card-data">
+          <strong>Nome:</strong> <span id="nome"></span>
+        </div>
+        <div class="card-data">
+          <strong>E-mail:</strong> <span id="email"></span>
+        </div>
+        <div class="card-data">
+          <strong>Idade:</strong> <span id="idade"></span>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="scripts/obterValorUrl.js"></script>
+</html>
