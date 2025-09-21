@@ -1,0 +1,34 @@
+<template>
+  <section>
+    <h2>Introdução</h2>
+    <p>
+      Esta página sobre o desenvolvimento do site serve como uma introdução
+      ao trabalho realizado por Jonhison e destaca o tratamento dos
+      elementos, desde a marcação HTML até a estilização com CSS e a
+      interação com JavaScript.
+    </p>
+  </section>
+  <section>
+    <h2>Desenvolvimento</h2>
+    <p>
+      O desenvolvimento da página web envolveu a criação de arquivos HTML e
+      CSS. O HTML foi usado para estruturar o conteúdo, enquanto o CSS foi
+      usado para estilizar o layout e o cabeçalho.
+    </p>
+  </section>
+  <section>
+    <h2>Estilização</h2>
+    <p>
+      O arquivo CSS ("style.css") foi usado para aplicar estilos ao site. O
+      cabeçalho possui um fundo escuro, links de navegação brancos que mudam
+      de cor quando o mouse passa por cima deles.
+    </p>
+  </section>
+  <section>
+    <h2>Scripts</h2>
+    <p>
+      O javascript foi utilizado para extrair os dados da url para mostrar
+      em tela quando navegasse para a tela "formaAction.html"
+    </p>
+  </section>
+</template>
