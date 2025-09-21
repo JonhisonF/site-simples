@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "vitest --environment jsdom",
-    "test:watch": "vitest --watch --environment jsdom",
-    "test:ui": "vitest --ui --environment jsdom",
-    "test:run": "vitest run --environment jsdom"
+    "dev": "app/node_modules/.bin/vite",
+    "build": "app/node_modules/.bin/vite build",
+    "preview": "app/node_modules/.bin/vite preview",
+    "test": "app/node_modules/.bin/vitest --environment jsdom",
+    "test:watch": "app/node_modules/.bin/vitest --watch --environment jsdom",
+    "test:ui": "app/node_modules/.bin/vitest --ui --environment jsdom",
+    "test:run": "app/node_modules/.bin/vitest run --environment jsdom"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
