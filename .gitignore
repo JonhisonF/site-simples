@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 vite.config.ts.timestamp*
-/app/.vscode/extensions.json
+/.vscode/extensions.json
