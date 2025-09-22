@@ -26,6 +26,8 @@ jobs:
         with:
           node-version: '20.19.0'
           check-latest: true
+          cache: 'npm'
+          cache-dependency-path: 'package-lock.json'
 
       - name: Show Node & npm versions
         run: |
