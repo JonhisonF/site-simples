@@ -43,7 +43,7 @@ jobs:
       # Build Vite -> dist/
       - name: Build
         env:
-          VITE_BASE: "/site-simples/"
+          VITE_BASE: "/"
         run: npm run build
 
       # Publica apenas a pasta dist/
