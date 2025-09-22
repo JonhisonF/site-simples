@@ -24,5 +24,6 @@ export default defineConfig({
         inline: [/vuetify/],
       },
     }
-  }
+  },
+  base: process.env.VITE_BASE || '/site-simples/'
 })
